@@ -11,7 +11,7 @@ export default defineConfig({
     },
     build: {
         chunkSizeWarningLimit: 1024 * 1024,
-        outDir: '../www-physics',
+        outDir: '../www',
         minify: 'terser',
         emptyOutDir: true
         //sourcemap: boolean | 'inline' | 'hidden'
