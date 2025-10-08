@@ -1,0 +1,23 @@
+{
+  "name": "pixi-matter-integration",
+  "version": "1.0.0",
+  "author": "piksel@mail.ru",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20.18.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "matter-js": "^0.20.0",
+    "pixi.js": "^8.7.3",
+    "terser": "^5.24.0",
+    "vite": "^4.4.5",
+    "vite-plugin-coffee": "^2.2.1",
+    "vite-plugin-static-copy": "^0.17.0"
+  }
+}
